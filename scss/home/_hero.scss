@@ -1,3 +1,4 @@
+// somsa
 .hero__inner {
   display: flex;
   align-items: center;
@@ -5,10 +6,12 @@
   max-width: 100%;
   height: 1000px;
   flex-wrap: wrap;
+
   .left {
     width: 50%;
     height: 100%;
     padding-top: 110px;
+
     h5 {
       color: #646464;
       font-family: "Open Sans";
@@ -18,26 +21,31 @@
       line-height: normal;
       padding-bottom: 10px;
     }
+
     h2 {
       color: #212121;
       font-size: 62px;
       font-family: "Poppins";
       font-style: normal;
       font-weight: 600;
-      line-height: 62px; /* 108.333% */
+      line-height: 62px;
+      /* 108.333% */
       max-width: 560px;
       padding-bottom: 18px;
     }
+
     p {
       color: #646464;
       font-family: "Open Sans";
       font-size: 12px;
       font-style: normal;
       font-weight: 400;
-      line-height: 20px; /* 166.667% */
+      line-height: 20px;
+      /* 166.667% */
       max-width: 500px;
       padding-bottom: 40px;
     }
+
     .home-btn {
       width: 122.154px;
       height: 32.808px;
@@ -49,18 +57,22 @@
       font-size: 14px;
       font-style: normal;
       font-weight: 700;
-      line-height: 78px; /* 433.333% */
+      line-height: 78px;
+      /* 433.333% */
       display: flex;
       align-items: center;
       justify-content: center;
       border: none;
     }
   }
+
   .right {
     width: 50%;
     height: 100%;
+
     .image {
       position: relative;
+
       .home__line {
         position: absolute;
         top: 100px;
@@ -70,6 +82,7 @@
         display: flex;
         z-index: 1;
       }
+
       .home__picture {
         position: absolute;
         top: 60px;
@@ -82,6 +95,7 @@
       }
     }
   }
+
   @media screen and (max-width: 1160px) {
     .right {
       .image {
@@ -89,6 +103,7 @@
       }
     }
   }
+
   @media screen and (max-width: 1110px) {
     .right {
       .image {
@@ -97,6 +112,7 @@
     }
   }
 }
+
 @media screen and (max-width: 1070px) {
   .hero__inner {
     display: flex;
